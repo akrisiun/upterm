@@ -1,7 +1,7 @@
 import * as ChildProcess from "child_process";
 import * as OS from "os";
 import * as _ from "lodash";
-import * as pty from "node-pty";
+import * as pty from "node-pty-prebuilt";
 import {loginShell} from "./utils/Shell";
 import {homeDirectory, info} from "./utils/Common";
 
